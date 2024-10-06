@@ -10,6 +10,7 @@ local fonts = {
 	-- "MonoLisa",
 	-- "Geist Mono",
 	-- "SF Mono",
+	"Comic Mono",
 	"Monaspace Neon",
 	"Monaspace Xenon",
 	"Monaspace Krypton",
@@ -55,7 +56,7 @@ config.font = wezterm.font_with_fallback({ fonts[1], emoji_fonts[1], emoji_fonts
 config.front_end = "WebGpu"
 config.enable_scroll_bar = false
 config.scrollback_lines = 10240
-config.font_size = 12
+config.font_size = 14
 config.enable_tab_bar = false
 config.hide_tab_bar_if_only_one_tab = false
 config.automatically_reload_config = true
